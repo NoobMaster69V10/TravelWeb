@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Travel</title>
+</head>
+<body>
+<!-- SVG -->
+    <div class="svg" style="display: none;">
+        <svg>
+            <symbol id="menu-icon" viewBox="0 0 20 14">
+                <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(1 1)">
+                    <path d="M0 6h18M0 0h18M0 12h18"></path>
+                </g>
+            </symbol>
+        </svg>
+        <svg>
+            <symbol id="arrow" viewBox="0 0 141.03 55">
+                <path fill="none" stroke-width="3px" fill-rule="enenodd" id="Line" class="cls-1" d="M1296.34,3613.08l26.55,26.42-26.55,26.42" transform="translate(-1184 -3612)"/>
+                <path fill="none" stroke-width="3px" fill-rule="enenodd" id="Line-2" data-name="Line" class="cls-1" d="M1184,3639l139.25-.25" transform="translate(-1184 -3612)"/>
+            </symbol>
+        </svg>
+        <svg>
+            <symbol id="left-arrow" viewBox="0 0 36.937 35.06">
+                <path fill="none" stroke-width="3px" fill-rule="enenodd" id="Line" d="M112.259,6050.05L95.731,6066.5l16.528,16.45" transform="translate(-93.594 -6048.97)"/>
+                <path fill="none" stroke-width="3px" fill-rule="enenodd" id="Line-2" data-name="Line" d="M130.511,6066.77l-35-.15" transform="translate(-93.594 -6048.97)"/>
+            </symbol>
+        </svg>
+        <svg>
+            <symbol id="right-arrow" viewBox="0 0 36.94 35.06">
+                <path fill="none" stroke-width="3px" fill-rule="enenodd" id="Line" d="M1323.12,6050.55l16.52,16.45-16.52,16.45" transform="translate(-1304.84 -6049.47)"/>
+                <path fill="none" stroke-width="3px" fill-rule="enenodd" id="Line-2" data-name="Line" d="M1304.86,6067.27l35.01-.15" transform="translate(-1304.84 -6049.47)"/>
+            </symbol>
+        </svg>
+
+    </div>
+
+
+<!-- All -->
+    <div class="all">
+    <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header_inner">
+                    <nav class="nav" id="nav">
+                        <a href="" class="nav_link">home</a>
+                        <a href="" class="nav_link">guides</a>
+                        <a href="" class="nav_link">flights</a>
+                        <a href="" class="nav_link">about</a>
+                        <button class="nav_btn header_btn">contact us</button>
+                    </nav>
+                    <button class="header_btn">contact us</button>
+                    <button class="header_menu_btn" onclick="NavUnhide()">
+                        <svg class="header_menu_icon">
+                            <use xlink:href="#menu-icon"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+        <!-- Main pg -->
+            <div class="main_pg">
+                <div class="container">
+                    <div class="main_pg_inner">
+                        <div class="main_pg_content">
+                            <h1>Travel to your dream destination</h1>
+                            <h6>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. </h6>
+                            <button>reserve ticket</button>
+                        </div>
+                        <img src="img/main pg/main-pg-img.jpg" alt="main image" class="main_pg_img">
+                    </div>
+                </div>
+                <img src="img/main pg/main-left-shape.png" alt="left shape" class="main_pg_left_shape">
+                <img src="img/main pg/main-right-shape.png" alt="right shape" class="main_pg_right_shape">
+            </div>
+        <!-- Main pg END -->
+
+        <!-- Memory -->
+            <div class="memory">
+                <div class="container">
+                    <div class="memory_content">
+                        <h1>Create a memory to remember</h1>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. </h6>
+                        <button>my travel logs</button>
+                    </div>
+                </div>
+                <img src="img/memory/memory-left-shape.png" alt="left shape" class="memory_left_shape">
+                <img src="img/memory/memory-right-shape.png" alt="right shape" class="memory_right_shape">
+            </div>
+        <!-- Memory END -->
+
+        <!-- Guides -->
+            <div class="guides">
+                <div class="container">
+                    <div class="guides_inner">
+                        <div class="guides_item">
+                            <img src="img/guides/1.jpg" alt="guide image">
+                            <div></div>
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <h6>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</h6>
+                        </div>
+
+                        <div class="guides_item">
+                            <img src="img/guides/2.jpg" alt="guide image">
+                            <div></div>
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <h6>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</h6>
+                        </div>
+
+                        <div class="guides_item">
+                            <img src="img/guides/3.jpg" alt="guide image">
+                            <div></div>
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <h6>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</h6>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/guides/guides-left-shape.png" alt="left shape" class="guides_left_shape">
+                <img src="img/guides/guides-right-shape.png" alt="right shape" class="guides_right_shape">
+            </div>    
+        <!-- Guides END -->
+
+        <!-- Flights -->
+            <div class="flights">
+                <div class="flights_top_content_inner">
+                    <div class="flights_top_content">
+                        <img src="img/flights/airplane-icon.png" alt="plane icon">
+                        <h1>See places you've <span>never</span> been before</h1>
+                        <h6>Lorem Ipsum Dolor | Lorem Ipsum Dolor | Lorem Ipsum Dolor</h6>
+                        <img src="img/flights/flights-left-shape.png" alt="left shape" class="flights_left_shape">
+                    </div>
+                    <img src="img/flights/flights-right-shape.png" alt="right shape" class="flights_right_shape">
+                </div>
+                <div class="container">
+                    <div class="flights_inner">
+                        <div class="flights_left_content">
+                            <img src="img/flights/1.jpg" alt="image" class="flights_left_img">
+                            <img src="img/flights/tape.png" alt="tape" class="flights_img_tape">
+                        </div>
+                        <div class="flights_right_content">
+                            <img src="img/flights/2.jpg" alt="image" class="flights_right_img">
+                            <div class="flights_bottom_content">
+                                <h1>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do ei</h1>
+                                <div class="flights_text_content">
+                                    <h6>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</h6>
+                                    <h6> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h6>
+                                    <a href="">
+                                        <svg class="flights_arrow">
+                                            <use xlink:href="#arrow"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Flights END -->
+
+        <!-- Location -->
+            <div class="location">
+                <div class="container">
+                    <div class="location_inner">
+                        <div class="location_left_content">
+                            <h1>Choose anywhere you’d like to be</h1>
+                            <div class="location_content">
+                                <h1>Lorem Ipsum dolor</h1>
+                                <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis in suscipit reiciendis magni ut numquam accusantium non temporibus quia voluptate, inventore aliquid dolorum odio repellendus molestiae dolor eaque, nemo earum!</h6>
+                            </div>
+                            <div class="location_content">
+                                <h1>Lorem Ipsum dolor</h1>
+                                <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis in suscipit reiciendis magni ut numquam accusantium non temporibus quia voluptate, inventore aliquid dolorum odio repellendus molestiae dolor eaque, nemo earum!</h6>
+                            </div>
+                        </div>
+                        <div class="location_right_content">
+                            <img src="img/location/1.jpg" alt="location image">
+                        </div>
+                    </div>
+                </div>
+                <img src="img/location/location-shape.png" alt="location shape" class="location_shape">
+            </div>
+        <!-- Location END -->
+
+        <!-- About -->
+            <div class="about">
+                <div class="container">
+                    <div class="about_inner">
+                        <div class="about_left_content">
+                            <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                            <div class="about_content">
+                                <div class="about_item">
+                                    <h2>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod</h2>
+                                    <img src="img/about/cross.png" alt="cross">
+                                </div>
+                                <div class="about_item">
+                                    <h2>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod</h2>
+                                    <img src="img/about/cross.png" alt="cross">
+                                </div>
+                                <div class="about_item">
+                                    <h2>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod</h2>
+                                    <img src="img/about/cross.png" alt="cross">
+                                </div>
+                                <div class="about_item">
+                                    <h2>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod</h2>
+                                    <img src="img/about/cross.png" alt="cross">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about_right_content">
+                            <img src="img/about/1.jpg" alt="about image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- About END -->
+
+        <!-- Review -->
+            <div class="review">
+                <div class="container">
+                    <h1>Here’s what they have to say...</h1>
+                    <div class="review_slider">
+                        <div class="slider_overflow">
+                            <div class="review_slider_body" id="review-slider-body">
+                                <div class="review_item" id="review-item">
+                                    <img src="img/review/user.png" alt="user icon">
+                                    <h2>customer name</h2>
+                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus totam esse rerum quis qui laborum eaque id. Voluptate sed minima, veritatis eum sint officiis quis praesentium alias delectus et distinctio.</h6>
+                                </div>
+    
+                                <div class="review_item">
+                                    <img src="img/review/user.png" alt="user icon">
+                                    <h2>customer name</h2>
+                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus totam esse rerum quis qui laborum eaque id. Voluptate sed minima, veritatis eum sint officiis quis praesentium alias delectus et distinctio.</h6>
+                                </div>
+    
+                                <div class="review_item">
+                                    <img src="img/review/user.png" alt="user icon">
+                                    <h2>customer name</h2>
+                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus totam esse rerum quis qui laborum eaque id. Voluptate sed minima, veritatis eum sint officiis quis praesentium alias delectus et distinctio.</h6>
+                                </div>
+
+                                <div class="review_item">
+                                    <img src="img/review/user.png" alt="user icon">
+                                    <h2>customer name</h2>
+                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus totam esse rerum quis qui laborum eaque id. Voluptate sed minima, veritatis eum sint officiis quis praesentium alias delectus et distinctio.</h6>
+                                </div>
+    
+                                <div class="review_item">
+                                    <img src="img/review/user.png" alt="user icon">
+                                    <h2>customer name</h2>
+                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus totam esse rerum quis qui laborum eaque id. Voluptate sed minima, veritatis eum sint officiis quis praesentium alias delectus et distinctio.</h6>
+                                </div>
+    
+                                <div class="review_item">
+                                    <img src="img/review/user.png" alt="user icon">
+                                    <h2>customer name</h2>
+                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus totam esse rerum quis qui laborum eaque id. Voluptate sed minima, veritatis eum sint officiis quis praesentium alias delectus et distinctio.</h6>
+                                </div>
+
+                                <div class="review_item">
+                                    <img src="img/review/user.png" alt="user icon">
+                                    <h2>customer name</h2>
+                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus totam esse rerum quis qui laborum eaque id. Voluptate sed minima, veritatis eum sint officiis quis praesentium alias delectus et distinctio.</h6>
+                                </div>
+    
+                                <div class="review_item">
+                                    <img src="img/review/user.png" alt="user icon">
+                                    <h2>customer name</h2>
+                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus totam esse rerum quis qui laborum eaque id. Voluptate sed minima, veritatis eum sint officiis quis praesentium alias delectus et distinctio.</h6>
+                                </div>
+    
+                                <div class="review_item">
+                                    <img src="img/review/user.png" alt="user icon">
+                                    <h2>customer name</h2>
+                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus totam esse rerum quis qui laborum eaque id. Voluptate sed minima, veritatis eum sint officiis quis praesentium alias delectus et distinctio.</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="slider_left_arrow" onclick="PrevSlide()">
+                            <svg class="slider_arrow">
+                                <use xlink:href="#left-arrow"></use>
+                            </svg>
+                        </button>
+                        <button class="slider_right_arrow" onclick="NextSlide()">
+                            <svg class="slider_arrow">
+                                <use xlink:href="#right-arrow"></use>
+                            </svg>    
+                        </button>
+                    </div>
+                </div>
+                <img src="img/review/review-left-shape.png" alt="left shape" class="review_left_shape">
+                <img src="img/review/review-right-shape.png" alt="right shape" class="review_right_shape">
+            </div>
+        <!-- Review END -->
+
+        <!-- Contact -->
+            <div class="contact">
+                <div class="container">
+                    <div class="contact_inner">
+                        <div class="contact_left_content">
+                            <h1>Be updated!</h1>
+                            <input type="text" name="" id="" placeholder="First Name*">
+                            <input type="text" name="" id="" placeholder="Last Name*">
+                            <input type="text" name="" id="" placeholder="Email Subject*">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write something here..."></textarea>
+                            <button type="submit">submit email</button>
+                        </div>
+                        <div class="contact_right_content">
+                            <img src="img/contact/1.jpg" alt="contact_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Contact END -->
+
+        <!-- Footer -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer_inner">
+                        <div class="footer_first_item">
+                            <h1>my log travels</h1>
+                        </div>
+                        <div class="footer_item">
+                            <h2>quick links</h2>
+                            <a href="">home</a>
+                            <a href="">about us</a>
+                            <a href="">my travel logs</a>
+                        </div>
+                        <div class="footer_item">
+                            <a href="">travels</a>
+                            <a href="">promo flights</a>
+                            <a href="">travel routes</a>
+                        </div>
+                        <div class="footer_item">
+                            <a href="">recommendations</a>
+                            <a href="">guides</a>
+                            <a href="">blogs</a>
+                        </div>
+                        <div class="footer_item">
+                            <a href="">mission statement</a>
+                            <a href="">the team</a>
+                            <a href="">contact us</a>
+                        </div>
+                    </div>
+                    <h3 class="footer_copyright">2021 - 2022 My Log Travels. All Rights Reserved.</h3>
+                </div>
+                <img src="img/footer/footer-shape.png" alt="footer shape" class="footer_shape">
+            </footer>
+        <!-- Footer END -->
+        </main>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
